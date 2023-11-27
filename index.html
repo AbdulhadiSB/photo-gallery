@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="css/gallery.css" />
+    <script src="js/gallery.js"></script>
+  </head>
+  <body onload="loading()">
+    <div id="image"> Hover over an image below to display here. </div>
+
+    <img
+      class="preview"
+      alt="French Fries"
+      src="https://images.themodernproper.com/billowy-turkey/production/posts/2022/Homemade-French-Fries_8.jpg?w=960&h=960&q=82&fm=jpg&fit=crop&dm=1662474181&s=f6b09b96f732330eca2aae43140b3ffa"
+      onmouseover="upDate(this); focusEle(this)"
+      onmouseout="unDo(); blurEle(this)"
+      onfocus="focusEle(this)"
+      onblur="blurEle(this)"
+    />
+
+    <img
+      class="preview"
+      alt="Steak"
+      src="https://natashaskitchen.com/wp-content/uploads/2020/03/Pan-Seared-Steak-4.jpg"
+      onmouseover="upDate(this); focusEle(this)"
+      onmouseout="unDo(); blurEle(this)"
+      onfocus="focusEle(this)"
+      onblur="blurEle(this)"
+    />
+
+    <img
+      class="preview"
+      src="https://www.eatingwell.com/thmb/LLdW9pYNi-Ikv3F24ZscgVEnqdg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/spaghetti-squash-soup-57d1df1e64744dbe913baa3579c8d4ce.jpg"
+      alt="Soup"
+      onmouseover="upDate(this); focusEle(this)"
+      onmouseout="unDo(); blurEle(this)"
+      onfocus="focusEle(this)"
+      onblur="blurEle(this)"
+    />
+
+    <img
+      class="preview"
+      src="https://cookerybay.com/wp-content/uploads/2021/07/Cheese-Pizza.jpg"
+      alt="Pizza"
+      onmouseover="upDate(this); focusEle(this)"
+      onmouseout="unDo(); blurEle(this)"
+      onfocus="focusEle(this)"
+      onblur="blurEle(this)"
+    />
+
+    <img
+      class="preview"
+      src="https://www.allrecipes.com/thmb/5JVfA7MxfTUPfRerQMdF-nGKsLY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/25473-the-perfect-basic-burger-DDMFS-4x3-56eaba3833fd4a26a82755bcd0be0c54.jpg"
+      alt="Burger"
+      onmouseover="upDate(this); focusEle(this)"
+      onmouseout="unDo(); blurEle(this)"
+      onfocus="focusEle(this)"
+      onblur="blurEle(this)"
+    />
+
+    <img
+      class="preview"
+      src="https://www.allrecipes.com/thmb/xI5g0WBP8yPHwRt1Nt5WudTctzE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/238691-Simple-Macaroni-And-Cheese-mfs_008-b32db5aa505041acbe958aedb81d29e9.jpg"
+      alt="Macaroni"
+      onmouseover="upDate(this); focusEle(this)"
+      onmouseout="unDo(); blurEle(this)"
+      onfocus="focusEle(this)"
+      onblur="blurEle(this)"
+    />
+  </body>
+</html>
